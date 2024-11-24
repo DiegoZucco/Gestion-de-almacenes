@@ -1,10 +1,40 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-nav{
-    background-color: #a8a8a8c2;
+body {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.fondo {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fondo::before {
+    content: "";
+    background-image: url(/public/image/logo\ sistema\ de\ gestion.jfif);
+    background-size: contain;
+    filter: blur(10px);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+
+}
+
+nav {
+    background-color: #a8a8a841;
     color: #000000;
     width: 96%;
     height: 9rem;
@@ -12,18 +42,84 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
-.logo{
+
+.logo {
     width: 15rem;
     height: 8rem;
-    background-color: rgb(122, 94, 94);
+    background-color: rgba(122, 94, 94, 0.829);
     padding: 0.5rem;
-    }
-#logo{
+}
+
+#logo-img {
     object-fit: cover;
     width: 15rem;
     height: 8rem;
-   
-    
+
+}
+
+.loginSing-inLinks {
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    height: 8rem;
+    margin: 0.5rem;
+    justify-content: space-around;
+}
+
+.side-bar {
+    position: fixed;
+    /* Fija el aside en la pantalla */
+    top: 10.8rem;
+    /* Alinea al top de la página */
+    left: 14.5px;
+    /* Alinea a la izquierda de la página */
+    width: 15.5rem;
+    /* Ocupa 1/3 de la pantalla */
+    height: 15rem;
+    /* Ocupa toda la altura de la ventana */
+   padding: 0.5rem;
+
+}
+
+.side-bar ol {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    line-height: 2;
+}
+
+.side-bar ol a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #000000;
+
+}
+
+
+main {
+    margin-left: 33.33%;
+    /* Deja espacio para el aside */
+    padding: 20px;
+    /* Espaciado interno para el main */
+    flex-grow: 1;
+    /* Permite que el main crezca */
+}
+
+.section-1-welcome,
+.section-2-description,
+.section-3-form {
+    margin-bottom: 20px;
+    /* Espaciado entre secciones */
+}
+
+.footer {
+    clear: both;
+    /* Asegura que el footer esté debajo de todo */
+    padding: 10px;
+    text-align: center;
+    width: 96%;
+    height: 9rem;
 }
