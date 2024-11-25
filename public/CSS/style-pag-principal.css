@@ -67,6 +67,8 @@ nav {
     margin: 0.5rem;
     justify-content: space-around;
 }
+
+
 main {
     margin: auto;
     width: 96%;
@@ -75,8 +77,8 @@ main {
     align-content: center;
     justify-content: center;
     grid-template-rows: 11rem;
-    grid-template-columns: 16rem 30rem;
-    justify-content: space-between;
+    grid-template-columns: 20% 80%;
+    justify-content: space-around;
     
 }
 
@@ -104,7 +106,7 @@ main {
     line-height: 1.8;
 }
 
-
+.
 
 .footer {
     clear: both;
