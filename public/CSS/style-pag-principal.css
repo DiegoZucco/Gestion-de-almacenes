@@ -67,7 +67,12 @@ nav {
     margin: 0.5rem;
     justify-content: space-around;
 }
-
+.loginSing-inLinks a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
 
 main {
     margin: auto;
@@ -85,7 +90,11 @@ main {
 .side-bar{
     display: flex;
     flex-direction: column;
-    width: 100%
+    width: 100%;
+    background-color: #a8a8a841;
+    
+
+    
 
 }
 .side-bar ol{
