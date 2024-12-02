@@ -13,8 +13,8 @@
         <nav>
             <div class="logo"><img id="logo-img" src="/public/image/logo.jfif" alt=""></div>
             <div class="loginSing-inLinks">
-                <a href="" id="loginLink">Iniciar Sesion</a>
-                <a href="" id="sign-inLink">Crear cuenta</a>
+                <button onclick="location.href='login.html'">Iniciar Sesión</button>
+                <button onclick="location.href='signup.html'">Registrarse</button>
             </div>
         </nav>
         <main>
@@ -29,25 +29,29 @@
             </aside>
 
             <section class="presentacion">
-               <h1>Bienvenidos a nuestro <br> sistema de gestion de stock</h1>
-               
+                <h1>Bienvenidos a nuestro <br> sistema de gestion de stock</h1>
 
-                <article id="resumen"><h2> Funcionalidades </h2>
-                <p>Este sistema permite gestionar de manera eficiente su stock, <br>teniendo la
-                    capacidad de generar ingresos y egresos, crear articulos nuevos,<br>
-                     eliminar articulos y
-                    realizar inventario de manera rapida y segura.</p>
-                <p>A traves de la asignacion de permisos de accesos, con diferentes niveles, <br>
-                    podra asignar a cada usuario el nivel de acceso que desee, <br> para
-                    que cada uno pueda realizar las acciones que necesite y asi garantizar <br>
-                    la seguridad de la informacion.</p>
-                
 
-                
+                <article class="descriptions">
+                    <h3> Funcionalidades </h3>
+                    <p id="description-1">Este sistema permite gestionar de manera eficiente su stock, <br>teniendo la
+                        capacidad de generar ingresos y egresos, crear articulos nuevos,<br>
+                        eliminar articulos y
+                        realizar inventario de manera rapida y segura.</p>
+                    <p id="description-2">A traves de la asignacion de permisos de accesos, con diferentes niveles, <br>
+                        podra asignar a cada usuario el nivel de acceso que desee, <br> para
+                        que cada uno pueda realizar las acciones que necesite y asi garantizar <br>
+                        la seguridad de la informacion.</p>
+
+
+
                 </article>
                 <form id="contact" action="" method="post">
-                    <label for="nombre"><input id="nombre" type="text" placeholder="Nombre" required></label>
-                    <label for="email"><input id="email" type="email" placeholder="Email" required></label>
+                    <h4>Para Realizar una consulta complete el formulario</h4>
+                    <label for="nombre">Nombre</label>
+                        <input id="nombre" type="text" placeholder="Nombre" required>
+                    <label for="email">E-mail</label>
+                        <input id="email" type="email" placeholder="Email" required>
                     <textarea name="Contact" id="" placeholder="Contactese con nosotros"></textarea>
                 </form>
             </section>
