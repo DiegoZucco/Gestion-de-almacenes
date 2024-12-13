@@ -11,6 +11,8 @@ body {
     overflow: auto;
 }
 
+
+
 .fondo {
     position: relative;
     width: 100%;
@@ -212,107 +214,103 @@ main {
     text-align: center;
 }
 
-/* Estilos para el formulario de contacto */
+
 #contact {
-    
     width: 50%;
     background-color: #928c8c6b;
-    /* Fondo claro para el formulario */
     border: 1px solid #ccc;
-    /* Borde gris claro */
     border-radius: 8px;
-    /* Bordes redondeados */
     padding: 20px;
-    /* Espaciado interno */
     margin: 20px auto;
-    /* Margen superior e inferior */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* Sombra sutil */
+
 }
 
 #contact h4 {
     color: #e2d9d9;
-    /* Color del texto del encabezado */
     margin-bottom: 15px;
-    /* Margen inferior del encabezado */
+    font-family: sans-serif;
 }
 
 #contact label {
     display: block;
-    /* Cada etiqueta en una nueva línea */
     margin: 10px 0 5px;
-    /* Margen superior e inferior de las etiquetas */
-    font-weight: bold;
     font-family: sans-serif;
-    /* Negrita para las etiquetas */
+    color: #353638;
+    text-shadow: #353638 1px 1px 1px;
 }
+#contact p{
+    font-family: sans-serif;
+    color: #353638;
+    text-shadow: #353638 1px 1px 1px;
 
+}
 #contact input[type="text"],
 #contact input[type="email"],
 #contact textarea {
     width: 100%;
-    /* Ancho completo */
     padding: 10px;
-    /* Espaciado interno */
     border: 1px solid #ccc;
-    /* Borde gris claro */
     border-radius: 4px;
-    /* Bordes redondeados */
     box-sizing: border-box;
-    /* Incluye el padding y el borde en el ancho total */
     font-size: 16px;
-    /* Tamaño de fuente */
     background-color: #5a59596b;
-    color: aliceblue;
 }
 
-#contact textarea {
+#textarea {
     margin-top: 15px;
     height: 100px;
-    /* Altura del área de texto */
     resize: vertical;
-    /* Permitir redimensionar solo verticalmente */
-    color: aliceblue
 }
 
 #contact input:focus[type="text"],
 #contact input[type="email"]:focus,
 #contact textarea:focus {
-    border-color: #7e9dbe;
-    /* Color de borde al enfocar (puedes cambiarlo por el color de tu elección) */
+    border-color: #688db4;
     outline: none;
-    /* Eliminar el contorno predeterminado */
 }
 
+
+
+
 #contact button {
-    background-color: #007BFF;
-    /* Color de fondo del botón */
+    width: 100px;
+    background-color: #616263;
     color: white;
-    /* Color del texto del botón */
-    border: none;
-    /* Sin borde */
+    border: 1px solid #ccc;
     border-radius: 4px;
-    /* Bordes redondeados */
     padding: 10px 15px;
-    /* Espaciado interno del botón */
     cursor: pointer;
-    /* Cambiar el cursor al pasar el ratón */
     font-size: 16px;
-    /* Tamaño de fuente */
     margin-top: 10px;
-    /* Margen superior */
 }
 
 #contact button:hover {
-    background-color: #0056b3;
-    /* Color de fondo al pasar el ratón (más oscuro) */
+    background-color: #5a59596b;
 }
 
+hr {
+    border: 3px solid #959aa0;
+    width: 96%;
+    margin: auto;
+}
 
 footer {
+    display: flex;
+    align-items: center;
     clear: both;
     padding: 10px;
     text-align: center;
     width: 96%;
     height: 9rem;
+    background-color: #928c8c6b;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 15px auto;
+}
+
+#logowhatsapp {
+    width: 50px;
+    height: 50px;
 }

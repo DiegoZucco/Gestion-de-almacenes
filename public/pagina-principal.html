@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/CSS/style-pag-principal.css">
-    <title>principal</title>
+
+    <title>Sistema de inventario</title>
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         </nav>
         <main>
             <aside class="side-bar">
-                <ol class="side-ol">
+                <ol class="side-ol parkinsans-one">
                     <li><a href="">Generar Ingreso</a></li>
                     <li><a href="">Generar Egreso</a></li>
                     <li><a href="">Crear articulo nuevo</a></li>
@@ -29,7 +30,7 @@
             </aside>
 
             <section class="presentacion">
-                <h1>Bienvenidos a nuestro <br> sistema de gestion de stock</h1>
+                <h1 class="parkinsans-one">Bienvenidos a nuestro <br> sistema de gestion de stock</h1>
 
 
                 <article class="descriptions">
@@ -49,16 +50,19 @@
                 <form id="contact" action="" method="post">
                     <h4>Para Realizar una consulta complete el formulario</h4>
                     <label for="nombre">Nombre</label>
-                        <input id="nombre" type="text" placeholder="Nombre" required>
+                    <input id="nombre" type="text" required>
                     <label for="email">E-mail</label>
-                        <input id="email" type="email" placeholder="Email" required>
-                    <textarea name="Contact" id="" placeholder="Contactese con nosotros"></textarea>
+                    <input id="email" type="email" required>
+                    <label for="textarea">Contactese con nosotros</label>
+                    <textarea name="Contact" id="textarea"></textarea>
+                    <p id="charcount">300 caracteres restantes</p>
+                    <button type="submit">Enviar</button>
                 </form>
             </section>
         </main>
+        <hr>
         <footer class="footer">
-
-
+            <a href=""><img id="logowhatsapp" src="/public/image/icons footer/whatsapp.png" alt=""></a>
 
         </footer>
     </div>
