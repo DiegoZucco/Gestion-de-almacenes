@@ -120,19 +120,26 @@ main {
     overflow-y: auto;
 }
 
-.side-bar ol {
+.side-bar ul {
     list-style: none;
     padding: 8px;
-    text-align: center;
-    margin: auto;
+    text-align: left;
+    margin: 25px 5px 35px;
+    
 
 }
+#side-ul-sub{
+    list-style: none;
+    padding: 8px;
+    text-align: left;
+    margin: 5px 5px 5px;
+}
 
-.side-bar ol li {
+.side-bar ul li {
     margin: 2px;
 }
 
-.side-bar ol a {
+.side-bar ul a {
     text-decoration: none;
     color: #000000;
     font-size: 18px;
@@ -310,7 +317,21 @@ footer {
     margin: 15px auto;
 }
 
-#logowhatsapp {
-    width: 50px;
-    height: 50px;
+#logoWhatsapp {
+    width: 30px;
+    height: 30px;
+}
+#logoFacebook{
+    width: 30px;
+    height: 30px;
+}
+
+#logoInstagram{
+    width: 30px;
+    height: 30px;
+}
+
+#logoEmail{
+    width: 30px;
+    height: 30px;
 }
