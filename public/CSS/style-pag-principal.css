@@ -217,7 +217,7 @@ main {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    text-shadow: 3px 6px 10px rgba(87, 84, 84, 0.877);
+    text-shadow: #353638 1px 1px 1px;
     text-align: center;
 }
 
@@ -302,12 +302,13 @@ hr {
     margin: auto;
 }
 
-footer {
+.footer {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    clear: both;
+
     padding: 10px;
-    text-align: center;
     width: 96%;
     height: 9rem;
     background-color: #928c8c6b;
@@ -316,22 +317,41 @@ footer {
     border-radius: 8px;
     margin: 15px auto;
 }
-
-#logoWhatsapp {
-    width: 30px;
-    height: 30px;
-}
-#logoFacebook{
-    width: 30px;
-    height: 30px;
-}
-
-#logoInstagram{
-    width: 30px;
-    height: 30px;
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 96%;
+    height: 3rem;
+    
 }
 
-#logoEmail{
+#logoWhatsapp,
+#logoFacebook,
+#logoInstagram,
+#logoEmail {
     width: 30px;
     height: 30px;
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 5px 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#logoWhatsapp:hover,
+#logoFacebook:hover,
+#logoInstagram:hover,
+#logoEmail:hover {
+    background-color: #5a59596b;
+}
+.footer-text{
+    font-size: 1.2rem;
+    color: #201f1f;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: #353638 1px 1px 1px;
+    
 }
