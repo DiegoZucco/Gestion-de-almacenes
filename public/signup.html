@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/CSS/style-pag-singup.css">
+    <title>SignUp</title>
+</head>
+
+<body>
+    <div class="fondo">
+        <nav>
+            <div class="logo"><img id="logo-img" src="/public/image/logo.jfif" alt=""></div>
+            <div class="loginSing-inLinks">
+                <button id="button-login" onclick="location.href='login.html'">Iniciar Sesión</button>
+                <button id="button-signup" onclick="location.href='signup.html'">Registrarse</button>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <form action="/signup" method="post" id="signup-form">
+            <h4>Registrarse</h4>
+            <label for="username">Username or Email:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Sign Up</button>
+    </main>
+    </form>
+
+</body>
+<script src="/public/js/script.js"></script>
+
+</html>
