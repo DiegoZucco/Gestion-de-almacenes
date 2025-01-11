@@ -1,0 +1,5 @@
+pagina presentacion:
+sacar el sidebar de tareas y agregarlo una vez logueado el usuario(restringir Funcionalidades
+de acuerdo a los permisos) en la pantalla principal.
+Generar un carrousel donde se a cada imagen la acompañe una descricion de alguna funcionalidad,
+minimo 3 maximo 5 imagenes. Las imagenes deben ser representativas de cada funcionalidad.
