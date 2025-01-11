@@ -22,9 +22,9 @@ body {
 
 .fondo::before {
     content: "";
-    background-image: url(/public/image/fondo.jpg);
+    background-image: url(/public/image/istockphoto-2181201124-612x612.jpg);
     background-size: contain;
-    filter: blur(2px);
+    filter: blur(10px);
     position: fixed;
     background-repeat: repeat;
     top: 0;
@@ -32,7 +32,8 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.8;
+   opacity: 0.75;
+    filter:brightness(0.65);
 
 }
 
