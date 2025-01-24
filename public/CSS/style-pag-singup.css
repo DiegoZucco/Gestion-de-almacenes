@@ -22,7 +22,7 @@ body {
 
 .fondo::before {
     content: "";
-    background-image: url(/public/image/fondo.jpg);
+    background-image: url(/public/image/istockphoto-2177283706-612x612.jpg);
     background-size: contain;
     filter: blur(2px);
     position: fixed;
@@ -56,10 +56,10 @@ nav {
 }
 
 #logo-img {
-    object-fit: cover;
+    object-fit:contain;
     width: 15rem;
     height: 8rem;
-    border-radius: 6px;
+    border-radius: 10px;
 
 }
 
