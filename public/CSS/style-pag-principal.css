@@ -172,16 +172,34 @@ main {
 
 }
 
-.presentacion h1 {
+    
+    
+    
+    
+
+
+.h1-presentation{
     text-align: center;
     line-height: 1.6;
-    color: rgb(29, 28, 28);
+    color: rgb(20, 20, 20);
     margin: 10px 0;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: bold;
     text-shadow: 3px 6px 10px rgba(87, 84, 84, 0.877);
+    background-image:url(../image/istockphoto-1020553884-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+
 }
 
 

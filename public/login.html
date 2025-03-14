@@ -13,13 +13,13 @@
         <nav>
             <div class="logo"><img id="logo-img" src="/public/image/istockphoto-1020553884-612x612.jpg" alt=""></div>
             <div class="loginSing-inLinks">
-                <button id="button-login" onclick="location.href='login.html'">Iniciar Sesión</button>
+                <button id="button-inicio" onclick="location.href='pagina-principal.html'">Inicio</button>
                 <button id="button-signup" onclick="location.href='signup.html'">Registrarse</button>
             </div>
         </nav>
     </div>
     <main>
-        <form action="/login" method="post">
+        <form id="form-login" action="/login" method="post">
             <h4>Iniciar Sesión</h4>
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
@@ -27,7 +27,7 @@
             <input type="email" id="email" name="email" required>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
-            <button type="submit">Login</button>
+            <button id="button" type="submit">Login</button>
         </form>
     </main>
 
