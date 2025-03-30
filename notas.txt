@@ -1,7 +1,58 @@
 pagina presentacion:
-sacar el sidebar de tareas(LISTA)
-agregar sidebar una vez logueado el usuario
+sacar el sidebar de tareas(LISTo)
 
-(restringir Funcionalidades de acuerdo a los permisos) en la pantalla principal.
+terminar el estilo del signup
+
+darle estilo al login
+
 Generar un carrousel donde a cada imagen la acompañe una descricion de alguna funcionalidad,
 minimo 3 maximo 5 imagenes. Las imagenes deben ser representativas de cada funcionalidad.
+
+
+
+agregar sidebar una vez logueado el usuario
+(restringir Funcionalidades de acuerdo a los permisos) en la pantalla principal.
+
+
+Entidades html:
+
+Las entidades HTML son códigos especiales que se utilizan para representar caracteres reservados en HTML, caracteres que no se encuentran en el teclado o caracteres que tienen un significado especial en HTML. Aquí tienes una lista de las entidades HTML más comunes y sus usos:
+
+**Entidades para caracteres reservados:**
+
+* **`&lt;`**: Representa el signo "menor que" (<). Se utiliza para evitar que el navegador interprete este carácter como el inicio de una etiqueta HTML.
+* **`&gt;`**: Representa el signo "mayor que" (>). Se utiliza para evitar que el navegador interprete este carácter como el final de una etiqueta HTML.
+* **`&amp;`**: Representa el signo "ampersand" (&). Se utiliza para representar este carácter especial dentro del contenido HTML.
+* **`&quot;`**: Representa las comillas dobles ("). Se utiliza para representar comillas dobles dentro de los atributos de las etiquetas HTML.
+* **`&apos;`**: Representa el apóstrofo o comilla simple ('). Se utiliza para representar apóstrofos dentro de los atributos de las etiquetas HTML.
+
+**Entidades para caracteres especiales:**
+
+* **`&nbsp;`**: Representa un espacio en blanco que no se rompe. Se utiliza para crear espacios en blanco que no se colapsan, lo que es útil para formatear texto.
+* **`&copy;`**: Representa el símbolo de copyright (©). Se utiliza para indicar la propiedad de derechos de autor.
+* **`&reg;`**: Representa el símbolo de marca registrada (®). Se utiliza para indicar que una marca está registrada.
+* **`&trade;`**: Representa el símbolo de marca comercial (™). Se utiliza para indicar una marca comercial.
+* **`&euro;`**: Representa el símbolo del euro (€). Se utiliza para mostrar el símbolo de la moneda euro.
+* **`&pound;`**: Representa el símbolo de la libra esterlina (£).
+* **`&yen;`**: Representa el símbolo del yen japonés (¥).
+* **`&cent;`**: Representa el símbolo del centavo (¢).
+
+**Entidades para caracteres acentuados y otros caracteres latinos:**
+
+* HTML proporciona entidades para una amplia gama de caracteres acentuados y otros caracteres latinos, lo que permite mostrar correctamente texto en diferentes idiomas. Algunos ejemplos incluyen:
+    * `&aacute;` (á)
+    * `&eacute;` (é)
+    * `&iacute;` (í)
+    * `&oacute;` (ó)
+    * `&uacute;` (ú)
+    * `&ntilde;` (ñ)
+    * `&ccedil;` (ç)
+
+**¿Para qué sirven?**
+
+* **Evitar conflictos con la sintaxis HTML**: Algunos caracteres tienen un significado especial en HTML (como <, >, & y "). Usar entidades asegura que el navegador los interprete como texto y no como parte del código HTML.
+* **Mostrar caracteres que no están en el teclado**: Las entidades permiten mostrar caracteres que no están disponibles en el teclado estándar, como símbolos de monedas, caracteres acentuados y caracteres especiales.
+* **Crear espacios en blanco especiales**: La entidad `&nbsp;` permite crear espacios en blanco que no se colapsan, lo que es útil para formatear texto y evitar saltos de línea no deseados.
+* **Mostrar símbolos especiales**: Las entidades permiten mostrar símbolos especiales como el símbolo de copyright, la marca registrada y otros símbolos que no están disponibles en el teclado estándar.
+
+Espero que esta información te sea de utilidad.
